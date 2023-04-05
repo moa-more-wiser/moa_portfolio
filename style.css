@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: 	#040404;
+    color: whitesmoke;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/bg2.jpg);
+    background-position: 0;
+    background-size: cover;
+}
+
+i{
+    color:orange;
+}
+
+nav{
+    width: 100%;
+    padding: 20px 0px;
+    text-align: center;
+    position: fixed;
+    opacity: 0.9;
+}
+
+.logo{
+    width: 200px;
+    margin: 0 auto 20px auto;
+    cursor: pointer;
+    font-size: 2rem;
+    font-weight: 900;
+    color: white;
+}
+
+nav ul{
+    width: 100%;
+    background-color: black;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 5px 30px;
+}
+
+nav ul li i{
+    padding-right: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: orange;
+}
+
+.text-area{
+    padding: 30px 30px;
+}
+
+.text-area ul{
+    padding-bottom: 20px;
+}
+
+.text-area li{
+    padding-left: 20px;
+    list-style: none;
+}
+
+.text-area li img{
+    width: 500px;
+    height: 250px;
+    border: solid 2px whitesmoke;
+}
+
+.text-area article ul a img{
+    width: 200px;
+    height: 400px;
+    border: solid 2px whitesmoke;
+    padding: 10px 10px;
+    margin: 20px;
+}
+
+.text-area i{
+    padding-right: 10px;
+}
+
+.text-area a{
+    text-decoration: none;
+}
+
+.title{
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.sub-title{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.text{
+    font-size: 1rem;
+}
+
+.red{
+    color: red;
+}
+
+nav.sticky{
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 3%;
+    transition: 0.3s;
+}
+
+nav.sticky .logo{
+    width: 35%;
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+nav.sticky ul{
+    background-color: transparent;
+}
+
+footer{
+    font-size: 0.7rem;
+    text-align: right;
+    padding-right: 10px;
+}
+
+@media  (max-width: 768px){
+
+    .header{
+        background-position: 0 100px;
+    }
+
+    nav ul li{
+        margin: 15px 15px;
+    }
+
+    nav.sticky .logo{
+        display: none;
+    }
+
+    nav.sticky a{
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+
+    .text-area{
+        padding: 10px 10px;
+    }
+
+    .text-area li{
+        padding-left: 10px;
+    }
+
+    .text-area li img{
+        width: 200px;
+        height: 100px;
+    }
+
+    .title{
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .text{
+        font-size: 0.8rem;
+    }
+
+    .text-area article ul a img{
+        width: 100px;
+        height: 200px;
+        border: solid 1px whitesmoke;
+        padding: 5px 5px;
+        margin: 10px;
+    }
+}
