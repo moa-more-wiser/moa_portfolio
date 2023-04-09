@@ -156,7 +156,8 @@ footer{
 @media  (max-width: 1000px){
 
     .header{
-        background-position: 0 100px;
+        background-size: cover;
+        background-position: 35%;
     }
 
     nav ul li{
