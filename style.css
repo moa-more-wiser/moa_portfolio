@@ -2,20 +2,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: 	#040404;
+    background-color: 	#1F2533;
     color: whitesmoke;
 }
 
 .header{
     width: 100%;
     height: 100vh;
-    background-image: url(img/bg2.jpg);
+    background-image: url(img/bg-small.jpg);
     background-position: 0;
     background-size: cover;
 }
 
 i{
-    color:orange;
+    color:gold;
+    background-color: #090D16;
 }
 
 nav{
@@ -33,11 +34,12 @@ nav{
     font-size: 2rem;
     font-weight: 900;
     color: white;
+    background-color: #1F2533;
 }
 
 nav ul{
     width: 100%;
-    background-color: black;
+    background-color: #1F2533;
 }
 
 nav ul li{
@@ -54,11 +56,11 @@ nav ul li a{
     text-decoration: none;
     font-size: 1.1rem;
     font-weight: 700;
-    color: orange;
+    color: gold;
 }
 
 .text-area{
-    padding: 30px 30px;
+    padding: 30px 200px;
 }
 
 .text-area ul{
@@ -93,9 +95,16 @@ nav ul li a{
 }
 
 .title{
+    margin-bottom: 25px;
     font-size: 1.2rem;
     font-weight: bold;
-    padding-bottom: 10px;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #090D16;
+    border-radius: 100vh;
+    color: whitesmoke;
+    text-align: center;
 }
 
 .sub-title{
@@ -111,11 +120,16 @@ nav ul li a{
     color: red;
 }
 
+.gold{
+    padding-right: 15px;
+    color: gold;
+}
+
 nav.sticky{
     position: fixed;
     left: 0;
     top: 0;
-    background-color: black;
+    background-color: #1F2533;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -139,7 +153,7 @@ footer{
     padding-right: 10px;
 }
 
-@media  (max-width: 768px){
+@media  (max-width: 1000px){
 
     .header{
         background-position: 0 100px;
