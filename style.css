@@ -202,11 +202,17 @@ footer{
         font-size: 0.8rem;
     }
 
-    .text-area article ul a img{
+    .app-ss a img{
         width: 100px;
         height: 200px;
         border: solid 1px whitesmoke;
         padding: 5px 5px;
         margin: 10px;
+    }
+
+    li.google-icon img{
+        width: 150px;
+        height: auto;
+        border: 0;
     }
 }
