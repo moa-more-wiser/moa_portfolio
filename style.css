@@ -2,21 +2,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: 	#1F2533;
+    background-color: 	#292a2c;
     color: whitesmoke;
 }
 
 .header{
     width: 100%;
     height: 100vh;
-    background-image: url(img/bg-small.jpg);
-    background-position: 0;
+    background-image: url(img/bg.jpg);
     background-size: cover;
 }
 
 i{
-    color:gold;
-    background-color: #090D16;
+    color:orange;
+    background-color: #000000;
 }
 
 nav{
@@ -34,12 +33,12 @@ nav{
     font-size: 2rem;
     font-weight: 900;
     color: white;
-    background-color: #1F2533;
+    background-color: #292a2c;
 }
 
 nav ul{
     width: 100%;
-    background-color: #1F2533;
+    background-color: #292a2c;
 }
 
 nav ul li{
@@ -56,7 +55,7 @@ nav ul li a{
     text-decoration: none;
     font-size: 1.1rem;
     font-weight: 700;
-    color: gold;
+    color: orange;
 }
 
 .text-area{
@@ -101,7 +100,7 @@ nav ul li a{
     width: 100%;
     height: 40px;
     line-height: 40px;
-    background-color: #090D16;
+    background-color: #000000;
     border-radius: 100vh;
     color: whitesmoke;
     text-align: center;
@@ -122,7 +121,7 @@ nav ul li a{
 
 .gold{
     padding-right: 15px;
-    color: gold;
+    color: orange;
 }
 
 li.google-icon img{
@@ -135,7 +134,7 @@ nav.sticky{
     position: fixed;
     left: 0;
     top: 0;
-    background-color: #1F2533;
+    background-color: #292a2c;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -162,8 +161,14 @@ footer{
 @media  (max-width: 1000px){
 
     .header{
+        background-image: url(img/bg_media.jpg);
         background-size: cover;
-        background-position: 35%;
+    }
+
+    .logo{
+        font-size: 1.8rem;
+        font-weight: 700;
+        background-color: #292a2c;
     }
 
     nav ul li{
